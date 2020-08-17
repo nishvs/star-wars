@@ -28,7 +28,6 @@ function App() {
       setPlanets(fulldata);
       console.log(fulldata)
     }
-    fetchPeople();
     fetchPlanets();
     setLoading(false);
   },[])
